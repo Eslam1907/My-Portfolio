@@ -874,7 +874,8 @@ header .menu:hover {
   margin-top: 40px;
 }
 
-.about .contnet-about .btns button {
+.about .contnet-about .btns button,
+.about .contnet-about .btns a.active {
   width: 180px;
   height: 50px;
   padding: 10px 20px;
@@ -891,7 +892,7 @@ header .menu:hover {
   cursor: pointer;
 }
 
-.about .contnet-about .btns button.active,
+.about .contnet-about .btns a.active,
 .about .contnet-about .btns button:hover {
   background-color: var(--main-color);
   background-color: var(--main-color);
@@ -989,7 +990,8 @@ header .menu:hover {
     font-size: 14px;
   }
 
-  .about .contnet-about .btns button {
+  .about .contnet-about .btns button,
+  .about .contnet-about .btns a.active {
     width: 150px;
     height: 45px;
     font-size: 16px;
