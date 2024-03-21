@@ -244,7 +244,7 @@ let myProjects = [
     id: 4,
     title: "Leon Template",
     discription: "This is Leon Template",
-    link: "https://eslam1907.github.io/Leo-",
+    link: "https://eslam1907.github.io/Leon-",
   },
 ];
 
