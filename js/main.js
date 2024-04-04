@@ -229,9 +229,9 @@ let myProjects = [
 
   {
     id: 2,
-    title: "Kasper Design",
-    discription: "This is a Kasper Design",
-    link: "https://eslam1907.github.io/kasper-",
+    title: "E-Commerce",
+    discription: "E-Commerce with Strapi, full stack project",
+    link: "https://e-commerce-cb251.web.app/",
   },
   {
     id: 3,
@@ -245,6 +245,12 @@ let myProjects = [
     title: "Leon Template",
     discription: "This is Leon Template",
     link: "https://eslam1907.github.io/Leon-",
+  },
+  {
+    id: 5,
+    title:  "Kasper Design",
+    discription:  "This is a Kasper Design",
+    link: "https://eslam1907.github.io/kasper-",
   },
 ];
 
