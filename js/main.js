@@ -242,15 +242,21 @@ let myProjects = [
   
 {
     id: 4,
-    title: "Leon Template",
-    discription: "This is Leon Template",
-    link: "https://eslam1907.github.io/Leon-",
+    title: "Cart app",
+    discription: "this cart idea with react and redux-toolkit",
+    link: "https://cart-app642.netlify.app/",
   },
   {
     id: 5,
     title:  "Kasper Design",
     discription:  "This is a Kasper Design",
     link: "https://eslam1907.github.io/kasper-",
+  },
+  {
+    id: 6,
+    title: "Leon Template",
+    discription: "This is Leon Template",
+    link: "https://eslam1907.github.io/Leon-",
   },
 ];
 
