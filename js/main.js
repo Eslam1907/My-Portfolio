@@ -229,31 +229,37 @@ let myProjects = [
 
   {
     id: 2,
+    title: "E-Commerce website",
+    discription: "E-Commerce website to show products and add it to cart",
+    link: "https://e-commerce-website2-eta.vercel.app/",
+  },
+  {
+    id: 3,
     title: "E-Commerce",
     discription: "E-Commerce with Strapi, full stack project",
     link: "https://e-commerce-cb251.web.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "CRUDS",
     discription: "CRUDS, Create Read Update Delete Search",
     link: "https://eslam1907.github.io/CRUD-APP",
   },
   
 {
-    id: 4,
+    id: 5,
     title: "Cart app",
     discription: "this cart idea with react and redux-toolkit",
     link: "https://cart-app642.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title:  "Kasper Design",
     discription:  "This is a Kasper Design",
     link: "https://eslam1907.github.io/kasper-",
   },
   {
-    id: 6,
+    id: 7,
     title: "Leon Template",
     discription: "This is Leon Template",
     link: "https://eslam1907.github.io/Leon-",
