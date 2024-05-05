@@ -11,7 +11,7 @@
 
 :root {
   --main-color: #91aec4;
-  --p-color:#2e5e70;
+  --p-color:#14b6ec;
   scroll-behavior: smooth;
 }
 
@@ -1012,14 +1012,17 @@ header .menu:hover {
 
 .skills .skills-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  column-gap: 40px;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .skills .skills-content .skill {
-  width: 90%;
+  width: 33%;
+  justify-content: center;
+  height: 140px;
   margin-top: 40px;
   background: linear-gradient(231deg,
       rgba(97, 49, 223, 1) 11%,
@@ -1035,11 +1038,12 @@ header .menu:hover {
   display: flex;
   align-items: center;
   width: 230px;
+  justify-content: space-between;
 }
 
 .skills .skills-content .skill .skill-name i {
   margin: 0 10px;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .skills .skills-content .skill .skill-name h3 {
@@ -1050,7 +1054,7 @@ header .menu:hover {
   color: #fff;
 }
 
-.skills .skills-content .skill .skill-progress {
+/* .skills .skills-content .skill .skill-progress {
   height: 30px;
   width: 100%;
   background-color: #f6f6f6;
@@ -1065,9 +1069,9 @@ header .menu:hover {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-}
+} */
 
-.skills .skills-content .skill .skill-progress span {
+/* .skills .skills-content .skill .skill-progress span {
   position: absolute;
   left: 0;
   top: 0;
@@ -1085,7 +1089,7 @@ header .menu:hover {
   justify-content: flex-end;
   padding-right: 10px;
   border-radius: 15px;
-}
+} */
 
 @media (max-width: 767px) {
   .skills .container {
@@ -1094,21 +1098,24 @@ header .menu:hover {
 
   .skills .skills-content .skill {
     flex-direction: column;
-    width: 100%;
+    width: 44%;
   }
 
   .skills .skills-content .skill .skill-name {
-    width: 100%;
+    width: 50%;
     justify-content: center;
     margin-bottom: 10px;
+  }
+  .skills .skills-content .skill .skill-name img {
+    width: 80% !important;
+  
+  }
+  .skills .skills-content .skill .skill-name i {
+    font-size: 52px;
+  
   }
 
-  .skills .skills-content .skill .skill-progress {
-    width: 100%;
-    height: 25px;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
+  
 }
 
 /* End Skills */
@@ -1168,7 +1175,7 @@ header .menu:hover {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
-  opacity: 0;
+  opacity: 1;
   z-index: 2;
 }
 

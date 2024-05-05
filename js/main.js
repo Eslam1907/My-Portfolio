@@ -226,44 +226,51 @@ let myProjects = [
     discription: "This is My Portfolio",
     link: "#",
   },
-
   {
     id: 2,
+    title: "E-commerce MERN with Dashboard",
+    discription: "Shopee E-commerce mern has dashboard ,cart ,login and log out and must log in to buy products using react , nodejs, express and mongo db",
+    link: "https://e-commerce-mern-theta.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Dashboard for Shopee e-commerce project number-2",
+    discription: "admin panel for adding a new product and remove existing product",
+    link: "https://e-commerce-mern-theta.vercel.app",
+  },
+
+  {
+    id: 4,
     title: "E-Commerce website",
     discription: "E-Commerce website to show products and add it to cart",
     link: "https://e-commerce-website2-eta.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "E-Commerce",
     discription: "E-Commerce with Strapi, full stack project",
     link: "https://e-commerce-cb251.web.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "CRUDS",
     discription: "CRUDS, Create Read Update Delete Search",
     link: "https://eslam1907.github.io/CRUD-APP",
   },
   
 {
-    id: 5,
+    id: 7,
     title: "Cart app",
     discription: "this cart idea with react and redux-toolkit",
     link: "https://cart-app642.netlify.app/",
   },
   {
-    id: 6,
+    id: 8,
     title:  "Kasper Design",
     discription:  "This is a Kasper Design",
     link: "https://eslam1907.github.io/kasper-",
   },
-  {
-    id: 7,
-    title: "Leon Template",
-    discription: "This is Leon Template",
-    link: "https://eslam1907.github.io/Leon-",
-  },
+ 
 ];
 
 for (let i = 0; i < myProjects.length; i++) {
